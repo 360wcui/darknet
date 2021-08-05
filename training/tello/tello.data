@@ -1,0 +1,6 @@
+classes= 1
+train  = /Users/wcui/workspace/UMD/research/darknet/training/backup/tello/train.txt
+valid  = /Users/wcui/workspace/UMD/research/darknet/training/backup/tello/test.txt
+#valid = data/coco_val_5k.list
+names = tello.names
+backup = /Users/wcui/workspace/UMD/research/darknet/training/backup
