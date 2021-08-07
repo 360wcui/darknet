@@ -1,13 +1,13 @@
 #!/bin/bash
 counter=10000
-for file in dij450/*.jpg
+for file in dji450/*.jpg
 do
-  [[ -f $file ]] && mv "$file" dij450/$((counter+1)).jpg && ((counter++))
+  [[ -f $file ]] && mv "$file" dji450/$((counter+1)).jpg && ((counter++))
 done
 
-for file in dij450/*.jpeg
+for file in dji450/*.jpeg
 do
-  [[ -f $file ]] && mv "$file" dij450/$((counter+1)).jpg && ((counter++))
+  [[ -f $file ]] && mv "$file" dji450/$((counter+1)).jpg && ((counter++))
 done
 
 for file in tarot650/*.jpg
